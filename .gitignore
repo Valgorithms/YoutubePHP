@@ -1,3 +1,12 @@
-
-vendor/
-composer.lock
+/vendor/
+/composer.lock
+/.php-cs-fixer.cache
+/.phpunit.cache
+/.phpunit.result.cache
+/.env
+/.vscode
+/build/
+/.phpdoc/
+/phpdoc-tool/
+.env.bak
+/.quota.json

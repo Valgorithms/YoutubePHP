@@ -1,5 +1,71 @@
 {
+    "name": "vzgcoders/youtubephp",
+    "description": "An async ReactPHP client for the YouTube Data API v3 and live chat, generated from Google's discovery document.",
+    "keywords": ["youtube", "youtube-data-api", "live-chat", "livestream", "reactphp", "async", "api-client", "bot"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valithor Obsidion",
+            "email": "valithor@valgorithms.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Valgorithms/YoutubePHP/issues",
+        "source": "https://github.com/Valgorithms/YoutubePHP"
+    },
     "require": {
-        "google/apiclient": "2.0"
+        "php": "^8.4",
+        "discord-php-helpers/collection": "dev-main",
+        "evenement/evenement": "^3.0",
+        "nesbot/carbon": "^3.8 || ^2.72",
+        "psr/log": "^1.1 || ^2.0 || ^3.0",
+        "react/event-loop": "^1.5",
+        "react/http": "^1.10",
+        "react/promise": "^3.2",
+        "react/socket": "^1.16",
+        "react/stream": "^1.4",
+        "symfony/options-resolver": "^6.4 || ^7.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.64",
+        "monolog/monolog": "^3.0",
+        "phpunit/phpunit": "^11.0 || ^12.0",
+        "react/async": "^4.3"
+    },
+    "suggest": {
+        "monolog/monolog": "A PSR-3 logger for the client's debug output",
+        "ext-uv": "A faster ReactPHP event loop"
+    },
+    "autoload": {
+        "psr-4": {
+            "YouTube\\": "src/YouTube"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YouTube\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "cs": "php-cs-fixer fix",
+        "test": "phpunit",
+        "spec:fetch": "php tools/fetch-spec.php",
+        "spec:generate": "php tools/generate.php",
+        "spec:build": [
+            "@spec:fetch",
+            "@spec:generate"
+        ],
+        "docs": "php tools/build-docs.php"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
