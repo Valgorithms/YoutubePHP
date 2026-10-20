@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1070px" preserveAspectRatio="none" style="width:769px;height:1070px;" version="1.1" viewBox="0 0 769 1070" width="769px" zoomAndPan="magnify"><defs/><g><!--MD5=[af098a61821e3900adecd881bec8aeff]
+cluster Evenement--><polygon fill="#FFFFFF" points="26,825,120,825,127,847.2969,242,847.2969,242,1054,26,1054,26,825" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="26" x2="127" y1="847.2969" y2="847.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="30" y="839.9951">Evenement</text><!--MD5=[ef4afb8bd125fd36c346749cf369d371]
+cluster YouTube--><polygon fill="#FFFFFF" points="310,24,386,24,393,46.2969,747,46.2969,747,1058,310,1058,310,24" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="310" x2="393" y1="46.2969" y2="46.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="70" x="314" y="38.9951">YouTube</text><!--MD5=[0b3f7d84ebec2460a4831d8faf7d6406]
+cluster YouTube\\Api--><polygon fill="#FFFFFF" points="383,67,414,67,421,89.2969,541,89.2969,541,150,383,150,383,67" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="383" x2="421" y1="89.2969" y2="89.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="25" x="387" y="81.9951">Api</text><!--MD5=[3bac8d08c27c29a7de7979d39fbca202]
+cluster YouTube\\Auth--><polygon fill="#FFFFFF" points="410.5,174,453.5,174,460.5,196.2969,513.5,196.2969,513.5,257,410.5,257,410.5,174" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="410.5" x2="460.5" y1="196.2969" y2="196.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="37" x="414.5" y="188.9951">Auth</text><!--MD5=[3e633e7e59fd0055b00f238cc28bced5]
+cluster YouTube\\Exceptions--><polygon fill="#FFFFFF" points="386.5,281,478.5,281,485.5,303.2969,537.5,303.2969,537.5,364,386.5,364,386.5,281" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="386.5" x2="485.5" y1="303.2969" y2="303.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="86" x="390.5" y="295.9951">Exceptions</text><!--MD5=[ca0ab493fbe908ed7a7ec53a3a237ac6]
+cluster YouTube\\Factory--><polygon fill="#FFFFFF" points="407,388,472,388,479,410.2969,517,410.2969,517,471,407,471,407,388" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="407" x2="479" y1="410.2969" y2="410.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="411" y="402.9951">Factory</text><!--MD5=[17f19269ef617d7c978ab2039bf441d1]
+cluster YouTube\\Http--><polygon fill="#FFFFFF" points="334,495,373,495,380,517.2969,723,517.2969,723,688,334,688,334,495" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="334" x2="380" y1="517.2969" y2="517.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="33" x="338" y="509.9951">Http</text><!--MD5=[98453f27b77124be3d836f18cd98651c]
+cluster YouTube\\Http\\Drivers--><polygon fill="#FFFFFF" points="599,581,662,581,669,603.2969,699,603.2969,699,664,599,664,599,581" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="599" x2="669" y1="603.2969" y2="603.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="57" x="603" y="595.9951">Drivers</text><!--MD5=[88a03e47dca220c6025dc682900383f4]
+cluster YouTube\\Http\\Exceptions--><polygon fill="#FFFFFF" points="358,538,450,538,457,560.2969,566,560.2969,566,621,358,621,358,538" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="358" x2="457" y1="560.2969" y2="560.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="86" x="362" y="552.9951">Exceptions</text><!--MD5=[5e5702c78e5e86c3d17760b88d98d198]
+cluster YouTube\\Parts--><polygon fill="#FFFFFF" points="384.5,712,431.5,712,438.5,734.2969,539.5,734.2969,539.5,795,384.5,795,384.5,712" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="384.5" x2="438.5" y1="734.2969" y2="734.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="41" x="388.5" y="726.9951">Parts</text><!--MD5=[d83ae1136dd38ce6718cba7ae9399ad6]
+cluster YouTube\\Quota--><polygon fill="#FFFFFF" points="412,819,465,819,472,841.2969,512,841.2969,512,902,412,902,412,819" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="412" x2="472" y1="841.2969" y2="841.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="47" x="416" y="833.9951">Quota</text><!--MD5=[92f617447782c29743d37c7de77de2dc]
+cluster React\\Stream--><polygon fill="#FFFFFF" points="22,29,133,29,140,51.2969,246,51.2969,246,118,22,118,22,29" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="140" y1="51.2969" y2="51.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="26" y="43.9951">React\Stream</text><!--MD5=[5e9ec59846a2fcccdccc0eae10269dc8]
+class Evenement\\EventEmitterInterface__class--><rect fill="#FEFECE" height="37.9375" id="Evenement\\EventEmitterInterface__class" style="stroke: #A80036; stroke-width: 1.5;" width="168" x="50" y="860"/><ellipse cx="65" cy="878.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M67.9688,884.6094 Q67.3906,884.9063 66.75,885.0469 Q66.1094,885.2031 65.4063,885.2031 Q62.9063,885.2031 61.5781,883.5625 Q60.2656,881.9063 60.2656,878.7813 Q60.2656,875.6563 61.5781,874 Q62.9063,872.3438 65.4063,872.3438 Q66.1094,872.3438 66.75,872.5 Q67.4063,872.6563 67.9688,872.9531 L67.9688,875.6719 Q67.3438,875.0938 66.75,874.8281 Q66.1563,874.5469 65.5313,874.5469 Q64.1875,874.5469 63.5,875.625 Q62.8125,876.6875 62.8125,878.7813 Q62.8125,880.875 63.5,881.9531 Q64.1875,883.0156 65.5313,883.0156 Q66.1563,883.0156 66.75,882.75 Q67.3438,882.4688 67.9688,881.8906 L67.9688,884.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="66" x="114" y="876.1387">«external»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="136" x="79" y="890.1074">EventEmitterInterface</text><!--MD5=[685b8a4f8d68c0e15ec0b036e4282ba5]
+class Evenement\\EventEmitterTrait__class--><rect fill="#FEFECE" height="32" id="Evenement\\EventEmitterTrait__class" style="stroke: #A80036; stroke-width: 1.5;" width="184" x="42" y="933"/><ellipse cx="57" cy="949" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M59.9688,954.6406 Q59.3906,954.9375 58.75,955.0781 Q58.1094,955.2344 57.4063,955.2344 Q54.9063,955.2344 53.5781,953.5938 Q52.2656,951.9375 52.2656,948.8125 Q52.2656,945.6875 53.5781,944.0313 Q54.9063,942.375 57.4063,942.375 Q58.1094,942.375 58.75,942.5313 Q59.4063,942.6875 59.9688,942.9844 L59.9688,945.7031 Q59.3438,945.125 58.75,944.8594 Q58.1563,944.5781 57.5313,944.5781 Q56.1875,944.5781 55.5,945.6563 Q54.8125,946.7188 54.8125,948.8125 Q54.8125,950.9063 55.5,951.9844 Q56.1875,953.0469 57.5313,953.0469 Q58.1563,953.0469 58.75,952.7813 Q59.3438,952.5 59.9688,951.9219 L59.9688,954.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="152" x="71" y="953.1543">EventEmitterTrait__class</text><!--MD5=[2884b626c5748bdd90627421675809c0]
+class Evenement\\EventEmitter__class--><rect fill="#FEFECE" height="37.9375" id="Evenement\\EventEmitter__class" style="stroke: #A80036; stroke-width: 1.5;" width="112" x="78" y="1000"/><ellipse cx="93" cy="1018.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M95.9688,1024.6094 Q95.3906,1024.9063 94.75,1025.0469 Q94.1094,1025.2031 93.4063,1025.2031 Q90.9063,1025.2031 89.5781,1023.5625 Q88.2656,1021.9063 88.2656,1018.7813 Q88.2656,1015.6563 89.5781,1014 Q90.9063,1012.3438 93.4063,1012.3438 Q94.1094,1012.3438 94.75,1012.5 Q95.4063,1012.6563 95.9688,1012.9531 L95.9688,1015.6719 Q95.3438,1015.0938 94.75,1014.8281 Q94.1563,1014.5469 93.5313,1014.5469 Q92.1875,1014.5469 91.5,1015.625 Q90.8125,1016.6875 90.8125,1018.7813 Q90.8125,1020.875 91.5,1021.9531 Q92.1875,1023.0156 93.5313,1023.0156 Q94.1563,1023.0156 94.75,1022.75 Q95.3438,1022.4688 95.9688,1021.8906 L95.9688,1024.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="66" x="114" y="1016.1387">«external»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="80" x="107" y="1030.1074">EventEmitter</text><!--MD5=[83ab9b337b003d15fd21466b617ed0a0]
+class YouTube\\YouTube__class--><rect fill="#FEFECE" height="32" id="YouTube\\YouTube__class" style="stroke: #A80036; stroke-width: 1.5;" width="130" x="397" y="921"/><ellipse cx="412" cy="937" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M414.9688,942.6406 Q414.3906,942.9375 413.75,943.0781 Q413.1094,943.2344 412.4063,943.2344 Q409.9063,943.2344 408.5781,941.5938 Q407.2656,939.9375 407.2656,936.8125 Q407.2656,933.6875 408.5781,932.0313 Q409.9063,930.375 412.4063,930.375 Q413.1094,930.375 413.75,930.5313 Q414.4063,930.6875 414.9688,930.9844 L414.9688,933.7031 Q414.3438,933.125 413.75,932.8594 Q413.1563,932.5781 412.5313,932.5781 Q411.1875,932.5781 410.5,933.6563 Q409.8125,934.7188 409.8125,936.8125 Q409.8125,938.9063 410.5,939.9844 Q411.1875,941.0469 412.5313,941.0469 Q413.1563,941.0469 413.75,940.7813 Q414.3438,940.5 414.9688,939.9219 L414.9688,942.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="98" x="426" y="941.1543">YouTube__class</text><!--MD5=[f88f4aa47a7d58b45a1eed2f490652d0]
+class YouTube\\Api\\WatermarksApi__class--><rect fill="#FEFECE" height="32" id="YouTube\\Api\\WatermarksApi__class" style="stroke: #A80036; stroke-width: 1.5;" width="126" x="399" y="102"/><ellipse cx="414" cy="118" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M416.9688,123.6406 Q416.3906,123.9375 415.75,124.0781 Q415.1094,124.2344 414.4063,124.2344 Q411.9063,124.2344 410.5781,122.5938 Q409.2656,120.9375 409.2656,117.8125 Q409.2656,114.6875 410.5781,113.0313 Q411.9063,111.375 414.4063,111.375 Q415.1094,111.375 415.75,111.5313 Q416.4063,111.6875 416.9688,111.9844 L416.9688,114.7031 Q416.3438,114.125 415.75,113.8594 Q415.1563,113.5781 414.5313,113.5781 Q413.1875,113.5781 412.5,114.6563 Q411.8125,115.7188 411.8125,117.8125 Q411.8125,119.9063 412.5,120.9844 Q413.1875,122.0469 414.5313,122.0469 Q415.1563,122.0469 415.75,121.7813 Q416.3438,121.5 416.9688,120.9219 L416.9688,123.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="94" x="428" y="122.1543">WatermarksApi</text><!--MD5=[25252f763ec0f58f812f2884531fb6e2]
+class YouTube\\Auth\\Scope__class--><rect fill="#FEFECE" height="32" id="YouTube\\Auth\\Scope__class" style="stroke: #A80036; stroke-width: 1.5;" width="71" x="426.5" y="209"/><ellipse cx="441.5" cy="225" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M444.4688,230.6406 Q443.8906,230.9375 443.25,231.0781 Q442.6094,231.2344 441.9063,231.2344 Q439.4063,231.2344 438.0781,229.5938 Q436.7656,227.9375 436.7656,224.8125 Q436.7656,221.6875 438.0781,220.0313 Q439.4063,218.375 441.9063,218.375 Q442.6094,218.375 443.25,218.5313 Q443.9063,218.6875 444.4688,218.9844 L444.4688,221.7031 Q443.8438,221.125 443.25,220.8594 Q442.6563,220.5781 442.0313,220.5781 Q440.6875,220.5781 440,221.6563 Q439.3125,222.7188 439.3125,224.8125 Q439.3125,226.9063 440,227.9844 Q440.6875,229.0469 442.0313,229.0469 Q442.6563,229.0469 443.25,228.7813 Q443.8438,228.5 444.4688,227.9219 L444.4688,230.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="39" x="455.5" y="229.1543">Scope</text><!--MD5=[99284fb958c996785e7ed74d33a8fc0e]
+class YouTube\\Exceptions\\PartException__class--><rect fill="#FEFECE" height="32" id="YouTube\\Exceptions\\PartException__class" style="stroke: #A80036; stroke-width: 1.5;" width="119" x="402.5" y="316"/><ellipse cx="417.5" cy="332" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M420.4688,337.6406 Q419.8906,337.9375 419.25,338.0781 Q418.6094,338.2344 417.9063,338.2344 Q415.4063,338.2344 414.0781,336.5938 Q412.7656,334.9375 412.7656,331.8125 Q412.7656,328.6875 414.0781,327.0313 Q415.4063,325.375 417.9063,325.375 Q418.6094,325.375 419.25,325.5313 Q419.9063,325.6875 420.4688,325.9844 L420.4688,328.7031 Q419.8438,328.125 419.25,327.8594 Q418.6563,327.5781 418.0313,327.5781 Q416.6875,327.5781 416,328.6563 Q415.3125,329.7188 415.3125,331.8125 Q415.3125,333.9063 416,334.9844 Q416.6875,336.0469 418.0313,336.0469 Q418.6563,336.0469 419.25,335.7813 Q419.8438,335.5 420.4688,334.9219 L420.4688,337.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="87" x="431.5" y="336.1543">PartException</text><!--MD5=[32d8276587f2dc3da8c010a252922219]
+class YouTube\\Factory\\Factory__class--><rect fill="#FEFECE" height="32" id="YouTube\\Factory\\Factory__class" style="stroke: #A80036; stroke-width: 1.5;" width="78" x="423" y="423"/><ellipse cx="438" cy="439" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M440.9688,444.6406 Q440.3906,444.9375 439.75,445.0781 Q439.1094,445.2344 438.4063,445.2344 Q435.9063,445.2344 434.5781,443.5938 Q433.2656,441.9375 433.2656,438.8125 Q433.2656,435.6875 434.5781,434.0313 Q435.9063,432.375 438.4063,432.375 Q439.1094,432.375 439.75,432.5313 Q440.4063,432.6875 440.9688,432.9844 L440.9688,435.7031 Q440.3438,435.125 439.75,434.8594 Q439.1563,434.5781 438.5313,434.5781 Q437.1875,434.5781 436.5,435.6563 Q435.8125,436.7188 435.8125,438.8125 Q435.8125,440.9063 436.5,441.9844 Q437.1875,443.0469 438.5313,443.0469 Q439.1563,443.0469 439.75,442.7813 Q440.3438,442.5 440.9688,441.9219 L440.9688,444.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="46" x="452" y="443.1543">Factory</text><!--MD5=[4df92e62c9f23f62e630f6fd125976e9]
+class YouTube\\Http\\DriverInterface__interface--><rect fill="#FEFECE" height="32" id="YouTube\\Http\\DriverInterface__interface" style="stroke: #A80036; stroke-width: 1.5;" width="125" x="399.5" y="640"/><ellipse cx="414.5" cy="656" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M410.4219,651.7656 L410.4219,649.6094 L417.8125,649.6094 L417.8125,651.7656 L415.3438,651.7656 L415.3438,659.8438 L417.8125,659.8438 L417.8125,662 L410.4219,662 L410.4219,659.8438 L412.8906,659.8438 L412.8906,651.7656 L410.4219,651.7656 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="93" x="428.5" y="660.1543">DriverInterface</text><!--MD5=[b88afa42d5887dd974b16df783d41f64]
+class YouTube\\Http\\Drivers\\React__class--><rect fill="#FEFECE" height="32" id="YouTube\\Http\\Drivers\\React__class" style="stroke: #A80036; stroke-width: 1.5;" width="68" x="615" y="616"/><ellipse cx="630" cy="632" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M632.9688,637.6406 Q632.3906,637.9375 631.75,638.0781 Q631.1094,638.2344 630.4063,638.2344 Q627.9063,638.2344 626.5781,636.5938 Q625.2656,634.9375 625.2656,631.8125 Q625.2656,628.6875 626.5781,627.0313 Q627.9063,625.375 630.4063,625.375 Q631.1094,625.375 631.75,625.5313 Q632.4063,625.6875 632.9688,625.9844 L632.9688,628.7031 Q632.3438,628.125 631.75,627.8594 Q631.1563,627.5781 630.5313,627.5781 Q629.1875,627.5781 628.5,628.6563 Q627.8125,629.7188 627.8125,631.8125 Q627.8125,633.9063 628.5,634.9844 Q629.1875,636.0469 630.5313,636.0469 Q631.1563,636.0469 631.75,635.7813 Q632.3438,635.5 632.9688,634.9219 L632.9688,637.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="36" x="644" y="636.1543">React</text><!--MD5=[b6ea51e6c4581c911e87f2b6cd351a8a]
+class YouTube\\Http\\Exceptions\\UnauthorizedException__class--><rect fill="#FEFECE" height="32" id="YouTube\\Http\\Exceptions\\UnauthorizedException__class" style="stroke: #A80036; stroke-width: 1.5;" width="176" x="374" y="573"/><ellipse cx="389" cy="589" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M391.9688,594.6406 Q391.3906,594.9375 390.75,595.0781 Q390.1094,595.2344 389.4063,595.2344 Q386.9063,595.2344 385.5781,593.5938 Q384.2656,591.9375 384.2656,588.8125 Q384.2656,585.6875 385.5781,584.0313 Q386.9063,582.375 389.4063,582.375 Q390.1094,582.375 390.75,582.5313 Q391.4063,582.6875 391.9688,582.9844 L391.9688,585.7031 Q391.3438,585.125 390.75,584.8594 Q390.1563,584.5781 389.5313,584.5781 Q388.1875,584.5781 387.5,585.6563 Q386.8125,586.7188 386.8125,588.8125 Q386.8125,590.9063 387.5,591.9844 Q388.1875,593.0469 389.5313,593.0469 Q390.1563,593.0469 390.75,592.7813 Q391.3438,592.5 391.9688,591.9219 L391.9688,594.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="144" x="403" y="593.1543">UnauthorizedException</text><polygon fill="#FFFFFF" points="418,988.5,492,988.5,499,1010.7969,506,1010.7969,506,1041.0938,418,1041.0938,418,988.5" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="418" x2="499" y1="1010.7969" y2="1010.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="68" x="422" y="1003.4951">LiveChat</text><!--MD5=[fd11ca9eba8ab7248e26f4b1230cb34f]
+class YouTube\\Parts\\WatchSettings__class--><rect fill="#FEFECE" height="32" id="YouTube\\Parts\\WatchSettings__class" style="stroke: #A80036; stroke-width: 1.5;" width="123" x="400.5" y="747"/><ellipse cx="415.5" cy="763" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M418.4688,768.6406 Q417.8906,768.9375 417.25,769.0781 Q416.6094,769.2344 415.9063,769.2344 Q413.4063,769.2344 412.0781,767.5938 Q410.7656,765.9375 410.7656,762.8125 Q410.7656,759.6875 412.0781,758.0313 Q413.4063,756.375 415.9063,756.375 Q416.6094,756.375 417.25,756.5313 Q417.9063,756.6875 418.4688,756.9844 L418.4688,759.7031 Q417.8438,759.125 417.25,758.8594 Q416.6563,758.5781 416.0313,758.5781 Q414.6875,758.5781 414,759.6563 Q413.3125,760.7188 413.3125,762.8125 Q413.3125,764.9063 414,765.9844 Q414.6875,767.0469 416.0313,767.0469 Q416.6563,767.0469 417.25,766.7813 Q417.8438,766.5 418.4688,765.9219 L418.4688,768.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="91" x="429.5" y="767.1543">WatchSettings</text><!--MD5=[cc69b5e0ac90a8e4a15b1170005566cc]
+class YouTube\\Quota\\Meter__class--><rect fill="#FEFECE" height="32" id="YouTube\\Quota\\Meter__class" style="stroke: #A80036; stroke-width: 1.5;" width="68" x="428" y="854"/><ellipse cx="443" cy="870" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M445.9688,875.6406 Q445.3906,875.9375 444.75,876.0781 Q444.1094,876.2344 443.4063,876.2344 Q440.9063,876.2344 439.5781,874.5938 Q438.2656,872.9375 438.2656,869.8125 Q438.2656,866.6875 439.5781,865.0313 Q440.9063,863.375 443.4063,863.375 Q444.1094,863.375 444.75,863.5313 Q445.4063,863.6875 445.9688,863.9844 L445.9688,866.7031 Q445.3438,866.125 444.75,865.8594 Q444.1563,865.5781 443.5313,865.5781 Q442.1875,865.5781 441.5,866.6563 Q440.8125,867.7188 440.8125,869.8125 Q440.8125,871.9063 441.5,872.9844 Q442.1875,874.0469 443.5313,874.0469 Q444.1563,874.0469 444.75,873.7813 Q445.3438,873.5 445.9688,872.9219 L445.9688,875.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="36" x="457" y="874.1543">Meter</text><!--MD5=[6ca28b7425252cbd82de009b5957c762]
+class React\\Stream\\ReadableStreamInterface__class--><rect fill="#FEFECE" height="37.9375" id="React\\Stream\\ReadableStreamInterface__class" style="stroke: #A80036; stroke-width: 1.5;" width="192" x="38" y="64"/><ellipse cx="53" cy="82.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M55.9688,88.6094 Q55.3906,88.9063 54.75,89.0469 Q54.1094,89.2031 53.4063,89.2031 Q50.9063,89.2031 49.5781,87.5625 Q48.2656,85.9063 48.2656,82.7813 Q48.2656,79.6563 49.5781,78 Q50.9063,76.3438 53.4063,76.3438 Q54.1094,76.3438 54.75,76.5 Q55.4063,76.6563 55.9688,76.9531 L55.9688,79.6719 Q55.3438,79.0938 54.75,78.8281 Q54.1563,78.5469 53.5313,78.5469 Q52.1875,78.5469 51.5,79.625 Q50.8125,80.6875 50.8125,82.7813 Q50.8125,84.875 51.5,85.9531 Q52.1875,87.0156 53.5313,87.0156 Q54.1563,87.0156 54.75,86.75 Q55.3438,86.4688 55.9688,85.8906 L55.9688,88.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="66" x="114" y="80.1387">«external»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="160" x="67" y="94.1074">ReadableStreamInterface</text><!--MD5=[262eec2f24e16e2ede795bffc9856660]
+class RuntimeException__class--><rect fill="#FEFECE" height="37.9375" id="RuntimeException__class" style="stroke: #A80036; stroke-width: 1.5;" width="144" x="62" y="313"/><ellipse cx="77" cy="331.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M79.9688,337.6094 Q79.3906,337.9063 78.75,338.0469 Q78.1094,338.2031 77.4063,338.2031 Q74.9063,338.2031 73.5781,336.5625 Q72.2656,334.9063 72.2656,331.7813 Q72.2656,328.6563 73.5781,327 Q74.9063,325.3438 77.4063,325.3438 Q78.1094,325.3438 78.75,325.5 Q79.4063,325.6563 79.9688,325.9531 L79.9688,328.6719 Q79.3438,328.0938 78.75,327.8281 Q78.1563,327.5469 77.5313,327.5469 Q76.1875,327.5469 75.5,328.625 Q74.8125,329.6875 74.8125,331.7813 Q74.8125,333.875 75.5,334.9531 Q76.1875,336.0156 77.5313,336.0156 Q78.1563,336.0156 78.75,335.75 Q79.3438,335.4688 79.9688,334.8906 L79.9688,337.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="66" x="114" y="329.1387">«external»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="112" x="91" y="343.1074">RuntimeException</text><!--MD5=[fc17d667aae25df988c7614736a4689f]
+class ArrayAccess__class--><rect fill="#FEFECE" height="37.9375" id="ArrayAccess__class" style="stroke: #A80036; stroke-width: 1.5;" width="107" x="80.5" y="223"/><ellipse cx="95.5" cy="241.9688" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M91.4219,237.7344 L91.4219,235.5781 L98.8125,235.5781 L98.8125,237.7344 L96.3438,237.7344 L96.3438,245.8125 L98.8125,245.8125 L98.8125,247.9688 L91.4219,247.9688 L91.4219,245.8125 L93.8906,245.8125 L93.8906,237.7344 L91.4219,237.7344 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="66" x="114" y="239.1387">«external»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="75" x="109.5" y="253.1074">ArrayAccess</text><!--MD5=[4cbd9e3827e1b00ee1461665eeca93c5]
+class JsonSerializable__class--><rect fill="#FEFECE" height="37.9375" id="JsonSerializable__class" style="stroke: #A80036; stroke-width: 1.5;" width="129" x="69.5" y="141"/><ellipse cx="84.5" cy="159.9688" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M80.4219,155.7344 L80.4219,153.5781 L87.8125,153.5781 L87.8125,155.7344 L85.3438,155.7344 L85.3438,163.8125 L87.8125,163.8125 L87.8125,165.9688 L80.4219,165.9688 L80.4219,163.8125 L82.8906,163.8125 L82.8906,155.7344 L80.4219,155.7344 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="66" x="114" y="157.1387">«external»</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="97" x="98.5" y="171.1074">JsonSerializable</text><!--MD5=[a0442e88a24574ee2cafdd3f8d2f2c40]
+reverse link Evenement\\EventEmitterTrait__class to YouTube\\YouTube__class--><path d="M231.24,943 C231.24,943 396.93,943 396.93,943 " fill="none" id="Evenement\\EventEmitterTrait__class&lt;-YouTube\\YouTube__class" style="stroke: #516F42; stroke-width: 1.0;"/><polygon fill="#516F42" points="226.24,943,235.24,947,231.24,943,235.24,939,226.24,943" style="stroke: #516F42; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="30" x="263" y="937.0669">uses</text><!--MD5=[e6586b7474ca2c32e237a0d1bae38148]
+reverse link Evenement\\EventEmitterInterface__class to YouTube\\YouTube__class--><path d="M238.31,892 C238.31,892 415,892 415,892 C415,892 415,907.86 415,920.75 " fill="none" id="Evenement\\EventEmitterInterface__class&lt;-YouTube\\YouTube__class" style="stroke: #516F42; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="238.31,899,218.31,892,238.31,885,238.31,899" style="stroke: #516F42; stroke-width: 1.0;"/><!--MD5=[4426f5df0aa578061c9d3a94ae5a0442]
+reverse link RuntimeException__class to YouTube\\Exceptions\\PartException__class--><path d="M226.39,332 C226.39,332 402.41,332 402.41,332 " fill="none" id="RuntimeException__class&lt;-YouTube\\Exceptions\\PartException__class" style="stroke: #516F42; stroke-width: 1.0;"/><polygon fill="none" points="226.39,339,206.39,332,226.39,325,226.39,339" style="stroke: #516F42; stroke-width: 1.0;"/><!--MD5=[38f2eefaeb780ef862d7eb1d3c4acbb0]
+reverse link YouTube\\Http\\DriverInterface__interface to YouTube\\Http\\Drivers\\React__class--><path d="M544.53,644 C544.53,644 614.87,644 614.87,644 " fill="none" id="YouTube\\Http\\DriverInterface__interface&lt;-YouTube\\Http\\Drivers\\React__class" style="stroke: #516F42; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="544.53,651,524.53,644,544.53,637,544.53,651" style="stroke: #516F42; stroke-width: 1.0;"/><!--MD5=[0434d867473db72310c4eca2afb91ddb]
+@startuml
+   skinparam ArrowColor #516f42
+   skinparam activityBorderColor #516f42
+   skinparam activityBackgroundColor #ffffff
+   skinparam activityDiamondBorderColor #516f42
+   skinparam activityDiamondBackgroundColor #ffffff
+   skinparam shadowing false
+
+skinparam shadowing false
+skinparam linetype ortho
+hide empty members
+left to right direction
+set namespaceSeparator \\
+
+namespace Evenement {
+    class "EventEmitterInterface" as EventEmitterInterface__class << external >>{
+    }
+}
+namespace YouTube\\Api {
+    class "Resources"  as Resources__trait << (T,#FF7700) Trait >> {
+    }
+}
+\\Evenement\\EventEmitterTrait__class <- - \\YouTube\\YouTube__class : uses
+\\YouTube\\Api\\Resources__trait <- - \\YouTube\\YouTube__class : uses
+namespace YouTube {
+     class "YouTube" as YouTube__class    implements \\Evenement\\EventEmitterInterface__class {
+    }
+}
+namespace YouTube\\Api {
+    abstract  class "AbstractApi" as AbstractApi__class    {
+    }
+}
+namespace YouTube\\Api {
+     class "AbuseReportsApi" as AbuseReportsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "ActivitiesApi" as ActivitiesApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "CaptionsApi" as CaptionsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "ChannelBannersApi" as ChannelBannersApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "ChannelsApi" as ChannelsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "ChannelSectionsApi" as ChannelSectionsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "CommentsApi" as CommentsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "CommentThreadsApi" as CommentThreadsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "I18nLanguagesApi" as I18nLanguagesApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "I18nRegionsApi" as I18nRegionsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "LiveBroadcastsApi" as LiveBroadcastsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "LiveChatBansApi" as LiveChatBansApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "LiveChatMessagesApi" as LiveChatMessagesApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "LiveChatModeratorsApi" as LiveChatModeratorsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "LiveStreamsApi" as LiveStreamsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "MembersApi" as MembersApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "MembershipsLevelsApi" as MembershipsLevelsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "PlaylistImagesApi" as PlaylistImagesApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "PlaylistItemsApi" as PlaylistItemsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "PlaylistsApi" as PlaylistsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "SearchApi" as SearchApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "SubscriptionsApi" as SubscriptionsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "SuperChatEventsApi" as SuperChatEventsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "TestsApi" as TestsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "ThirdPartyLinksApi" as ThirdPartyLinksApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "ThumbnailsApi" as ThumbnailsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "VideoAbuseReportReasonsApi" as VideoAbuseReportReasonsApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "VideoCategoriesApi" as VideoCategoriesApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "VideosApi" as VideosApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "VideoTrainabilityApi" as VideoTrainabilityApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Api {
+     class "WatermarksApi" as WatermarksApi__class   extends \\YouTube\\Api\\AbstractApi__class  {
+    }
+}
+namespace YouTube\\Auth {
+    interface "ReauthorizerInterface" as ReauthorizerInterface__interface  {
+    }
+}
+namespace YouTube\\Auth {
+     class "DeviceCodeReauthorizer" as DeviceCodeReauthorizer__class    implements \\YouTube\\Auth\\ReauthorizerInterface__interface {
+    }
+}
+namespace YouTube\\Auth {
+    interface "TokenStoreInterface" as TokenStoreInterface__interface  {
+    }
+}
+namespace YouTube\\Auth {
+     class "EnvFileTokenStore" as EnvFileTokenStore__class    implements \\YouTube\\Auth\\TokenStoreInterface__interface {
+    }
+}
+namespace YouTube\\Auth {
+     class "OAuth" as OAuth__class    {
+    }
+}
+class "RuntimeException" as RuntimeException__class << external >>{
+}
+namespace YouTube\\Auth {
+     class "OAuthException" as OAuthException__class   extends \\RuntimeException__class  {
+    }
+}
+namespace YouTube\\Auth {
+     class "Scope" as Scope__class    {
+    }
+}
+namespace YouTube\\Exceptions {
+     class "PartException" as PartException__class   extends \\RuntimeException__class  {
+    }
+}
+namespace YouTube\\Factory {
+     class "Factory" as Factory__class    {
+    }
+}
+namespace YouTube\\Http {
+    interface "HttpInterface" as HttpInterface__interface  {
+    }
+}
+namespace YouTube\\Http {
+     class "Http" as Http__class    implements \\YouTube\\Http\\HttpInterface__interface {
+    }
+}
+namespace YouTube\\Http {
+     class "Media" as Media__class    {
+    }
+}
+namespace YouTube\\Http {
+     class "Request" as Request__class    {
+    }
+}
+namespace Evenement {
+    class "EventEmitter" as EventEmitter__class << external >>{
+    }
+}
+namespace React\\Stream {
+    class "ReadableStreamInterface" as ReadableStreamInterface__class << external >>{
+    }
+}
+namespace YouTube\\Http {
+     class "ResponseStream" as ResponseStream__class   extends \\Evenement\\EventEmitter__class  implements \\React\\Stream\\ReadableStreamInterface__class {
+    }
+}
+namespace YouTube\\Http {
+    interface "DriverInterface" as DriverInterface__interface  {
+    }
+}
+namespace YouTube\\Http\\Drivers {
+     class "React" as React__class    implements \\YouTube\\Http\\DriverInterface__interface {
+    }
+}
+namespace YouTube\\Http\\Exceptions {
+     class "HttpException" as HttpException__class   extends \\RuntimeException__class  {
+    }
+}
+namespace YouTube\\Http\\Exceptions {
+     class "BadRequestException" as BadRequestException__class   extends \\YouTube\\Http\\Exceptions\\HttpException__class  {
+    }
+}
+namespace YouTube\\Http\\Exceptions {
+     class "ConflictException" as ConflictException__class   extends \\YouTube\\Http\\Exceptions\\HttpException__class  {
+    }
+}
+namespace YouTube\\Http\\Exceptions {
+     class "ForbiddenException" as ForbiddenException__class   extends \\YouTube\\Http\\Exceptions\\HttpException__class  {
+    }
+}
+namespace YouTube\\Http\\Exceptions {
+     class "LiveChatDisabledException" as LiveChatDisabledException__class   extends \\YouTube\\Http\\Exceptions\\ForbiddenException__class  {
+    }
+}
+namespace YouTube\\Http\\Exceptions {
+     class "LiveChatEndedException" as LiveChatEndedException__class   extends \\YouTube\\Http\\Exceptions\\ForbiddenException__class  {
+    }
+}
+namespace YouTube\\Http\\Exceptions {
+     class "NotFoundException" as NotFoundException__class   extends \\YouTube\\Http\\Exceptions\\HttpException__class  {
+    }
+}
+namespace YouTube\\Http\\Exceptions {
+     class "LiveChatNotFoundException" as LiveChatNotFoundException__class   extends \\YouTube\\Http\\Exceptions\\NotFoundException__class  {
+    }
+}
+namespace YouTube\\Http\\Exceptions {
+     class "MissingScopeException" as MissingScopeException__class   extends \\YouTube\\Http\\Exceptions\\ForbiddenException__class  {
+    }
+}
+namespace YouTube\\Http\\Exceptions {
+     class "QuotaExceededException" as QuotaExceededException__class   extends \\YouTube\\Http\\Exceptions\\HttpException__class  {
+    }
+}
+namespace YouTube\\Http\\Exceptions {
+     class "RateLimitedException" as RateLimitedException__class   extends \\YouTube\\Http\\Exceptions\\HttpException__class  {
+    }
+}
+namespace YouTube\\Http\\Exceptions {
+     class "ServerException" as ServerException__class   extends \\YouTube\\Http\\Exceptions\\HttpException__class  {
+    }
+}
+namespace YouTube\\Http\\Exceptions {
+     class "UnauthorizedException" as UnauthorizedException__class   extends \\YouTube\\Http\\Exceptions\\HttpException__class  {
+    }
+}
+\\Evenement\\EventEmitterTrait__class <- - \\YouTube\\LiveChat\\BroadcastWatcher__class : uses
+namespace YouTube\\LiveChat {
+     class "BroadcastWatcher" as BroadcastWatcher__class    implements \\Evenement\\EventEmitterInterface__class {
+    }
+}
+\\Evenement\\EventEmitterTrait__class <- - \\YouTube\\LiveChat\\ChatReader__class : uses
+namespace YouTube\\LiveChat {
+     class "ChatReader" as ChatReader__class    implements \\Evenement\\EventEmitterInterface__class {
+    }
+}
+interface "ArrayAccess" as ArrayAccess__class << external >>{
+}
+interface "JsonSerializable" as JsonSerializable__class << external >>{
+}
+namespace YouTube\\Parts {
+    abstract  class "Part" as Part__class    implements \\ArrayAccess__class,\\JsonSerializable__class {
+    }
+}
+namespace YouTube\\Parts {
+     class "AbuseReport" as AbuseReport__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "AbuseType" as AbuseType__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "AccessPolicy" as AccessPolicy__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "Activity" as Activity__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ActivityContentDetails" as ActivityContentDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ActivityContentDetailsBulletin" as ActivityContentDetailsBulletin__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ActivityContentDetailsChannelItem" as ActivityContentDetailsChannelItem__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ActivityContentDetailsComment" as ActivityContentDetailsComment__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ActivityContentDetailsPlaylistItem" as ActivityContentDetailsPlaylistItem__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ActivityContentDetailsPromotedItem" as ActivityContentDetailsPromotedItem__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ActivityContentDetailsRecommendation" as ActivityContentDetailsRecommendation__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ActivityContentDetailsSocial" as ActivityContentDetailsSocial__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ActivityContentDetailsSubscription" as ActivityContentDetailsSubscription__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ActivityContentDetailsUpload" as ActivityContentDetailsUpload__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ActivityListResponse" as ActivityListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ActivitySnippet" as ActivitySnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "AvailabilityConfig" as AvailabilityConfig__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "AvailabilityConfigGlobalConfig" as AvailabilityConfigGlobalConfig__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "AvailabilityConfigRegionsConfig" as AvailabilityConfigRegionsConfig__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "AvailabilityConfigRegionsConfigRegionInterval" as AvailabilityConfigRegionsConfigRegionInterval__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "BatchGetStatsResponse" as BatchGetStatsResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "BrandPartner" as BrandPartner__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "Caption" as Caption__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "CaptionListResponse" as CaptionListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "CaptionSnippet" as CaptionSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "CdnSettings" as CdnSettings__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "Channel" as Channel__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelAuditDetails" as ChannelAuditDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelBannerResource" as ChannelBannerResource__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelBrandingSettings" as ChannelBrandingSettings__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelContentDetails" as ChannelContentDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelContentDetailsRelatedPlaylists" as ChannelContentDetailsRelatedPlaylists__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelContentOwnerDetails" as ChannelContentOwnerDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelConversionPing" as ChannelConversionPing__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelConversionPings" as ChannelConversionPings__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelListResponse" as ChannelListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelLocalization" as ChannelLocalization__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelProfileDetails" as ChannelProfileDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelSection" as ChannelSection__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelSectionContentDetails" as ChannelSectionContentDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelSectionListResponse" as ChannelSectionListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelSectionLocalization" as ChannelSectionLocalization__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelSectionSnippet" as ChannelSectionSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelSectionTargeting" as ChannelSectionTargeting__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelSettings" as ChannelSettings__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelSnippet" as ChannelSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelStatistics" as ChannelStatistics__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelStatus" as ChannelStatus__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelToAffiliateProgramLinkDetails" as ChannelToAffiliateProgramLinkDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelTopicDetails" as ChannelTopicDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelToStoreLinkDetails" as ChannelToStoreLinkDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelToStoreLinkDetailsBillingDetails" as ChannelToStoreLinkDetailsBillingDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ChannelToStoreLinkDetailsMerchantAffiliateProgramDetails" as ChannelToStoreLinkDetailsMerchantAffiliateProgramDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "Comment" as Comment__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "CommentListResponse" as CommentListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "CommentSnippet" as CommentSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "CommentSnippetAuthorChannelId" as CommentSnippetAuthorChannelId__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "CommentThread" as CommentThread__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "CommentThreadListResponse" as CommentThreadListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "CommentThreadReplies" as CommentThreadReplies__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "CommentThreadSnippet" as CommentThreadSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ContentRating" as ContentRating__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "Cuepoint" as Cuepoint__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "CuepointSchedule" as CuepointSchedule__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "Entity" as Entity__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "GeoPoint" as GeoPoint__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "I18nLanguage" as I18nLanguage__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "I18nLanguageListResponse" as I18nLanguageListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "I18nLanguageSnippet" as I18nLanguageSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "I18nRegion" as I18nRegion__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "I18nRegionListResponse" as I18nRegionListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "I18nRegionSnippet" as I18nRegionSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ImageSettings" as ImageSettings__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "IngestionInfo" as IngestionInfo__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "Interval" as Interval__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "InvideoBranding" as InvideoBranding__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "InvideoPosition" as InvideoPosition__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "InvideoTiming" as InvideoTiming__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LanguageTag" as LanguageTag__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LevelDetails" as LevelDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveBroadcast" as LiveBroadcast__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveBroadcastContentDetails" as LiveBroadcastContentDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveBroadcastListResponse" as LiveBroadcastListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveBroadcastMonetizationDetails" as LiveBroadcastMonetizationDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveBroadcastSnippet" as LiveBroadcastSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveBroadcastStatistics" as LiveBroadcastStatistics__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveBroadcastStatus" as LiveBroadcastStatus__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatBan" as LiveChatBan__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatBanSnippet" as LiveChatBanSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatFanFundingEventDetails" as LiveChatFanFundingEventDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatGiftDetails" as LiveChatGiftDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatGiftMembershipReceivedDetails" as LiveChatGiftMembershipReceivedDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatMemberMilestoneChatDetails" as LiveChatMemberMilestoneChatDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatMembershipGiftingDetails" as LiveChatMembershipGiftingDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatMessage" as LiveChatMessage__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatMessageAuthorDetails" as LiveChatMessageAuthorDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatMessageDeletedDetails" as LiveChatMessageDeletedDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatMessageListResponse" as LiveChatMessageListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatMessageRetractedDetails" as LiveChatMessageRetractedDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatMessageSnippet" as LiveChatMessageSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatModerator" as LiveChatModerator__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatModeratorListResponse" as LiveChatModeratorListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatModeratorSnippet" as LiveChatModeratorSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatNewSponsorDetails" as LiveChatNewSponsorDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatPollDetails" as LiveChatPollDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatPollDetailsPollMetadata" as LiveChatPollDetailsPollMetadata__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatPollDetailsPollMetadataPollOption" as LiveChatPollDetailsPollMetadataPollOption__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatSuperChatDetails" as LiveChatSuperChatDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatSuperStickerDetails" as LiveChatSuperStickerDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatTextMessageDetails" as LiveChatTextMessageDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveChatUserBannedMessageDetails" as LiveChatUserBannedMessageDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveStream" as LiveStream__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveStreamConfigurationIssue" as LiveStreamConfigurationIssue__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveStreamContentDetails" as LiveStreamContentDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveStreamHealthStatus" as LiveStreamHealthStatus__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveStreamListResponse" as LiveStreamListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveStreamSnippet" as LiveStreamSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LiveStreamStatus" as LiveStreamStatus__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LocalizedProperty" as LocalizedProperty__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "LocalizedString" as LocalizedString__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "Member" as Member__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "MemberListResponse" as MemberListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "MembershipsDetails" as MembershipsDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "MembershipsDuration" as MembershipsDuration__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "MembershipsDurationAtLevel" as MembershipsDurationAtLevel__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "MembershipsLevel" as MembershipsLevel__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "MembershipsLevelListResponse" as MembershipsLevelListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "MembershipsLevelSnippet" as MembershipsLevelSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "MemberSnippet" as MemberSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "MonitorStreamInfo" as MonitorStreamInfo__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "PageInfo" as PageInfo__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "Playlist" as Playlist__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "PlaylistContentDetails" as PlaylistContentDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "PlaylistImage" as PlaylistImage__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "PlaylistImageListResponse" as PlaylistImageListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "PlaylistImageSnippet" as PlaylistImageSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "PlaylistItem" as PlaylistItem__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "PlaylistItemContentDetails" as PlaylistItemContentDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "PlaylistItemListResponse" as PlaylistItemListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "PlaylistItemSnippet" as PlaylistItemSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "PlaylistItemStatus" as PlaylistItemStatus__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "PlaylistListResponse" as PlaylistListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "PlaylistLocalization" as PlaylistLocalization__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "PlaylistPlayer" as PlaylistPlayer__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "PlaylistSnippet" as PlaylistSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "PlaylistStatus" as PlaylistStatus__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "PropertyValue" as PropertyValue__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "RelatedEntity" as RelatedEntity__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ResourceId" as ResourceId__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "SearchListResponse" as SearchListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "SearchResult" as SearchResult__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "SearchResultSnippet" as SearchResultSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "Subscription" as Subscription__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "SubscriptionContentDetails" as SubscriptionContentDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "SubscriptionListResponse" as SubscriptionListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "SubscriptionSnippet" as SubscriptionSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "SubscriptionSubscriberSnippet" as SubscriptionSubscriberSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "SuperChatEvent" as SuperChatEvent__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "SuperChatEventListResponse" as SuperChatEventListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "SuperChatEventSnippet" as SuperChatEventSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "SuperStickerMetadata" as SuperStickerMetadata__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "TestItem" as TestItem__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "TestItemTestItemSnippet" as TestItemTestItemSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ThirdPartyLink" as ThirdPartyLink__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ThirdPartyLinkListResponse" as ThirdPartyLinkListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ThirdPartyLinkSnippet" as ThirdPartyLinkSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ThirdPartyLinkStatus" as ThirdPartyLinkStatus__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "Thumbnail" as Thumbnail__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ThumbnailDetails" as ThumbnailDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "ThumbnailSetResponse" as ThumbnailSetResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "TokenPagination" as TokenPagination__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "Video" as Video__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoAbuseReport" as VideoAbuseReport__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoAbuseReportReason" as VideoAbuseReportReason__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoAbuseReportReasonListResponse" as VideoAbuseReportReasonListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoAbuseReportReasonSnippet" as VideoAbuseReportReasonSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoAbuseReportSecondaryReason" as VideoAbuseReportSecondaryReason__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoAgeGating" as VideoAgeGating__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoCategory" as VideoCategory__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoCategoryListResponse" as VideoCategoryListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoCategorySnippet" as VideoCategorySnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoContentDetails" as VideoContentDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoContentDetailsRegionRestriction" as VideoContentDetailsRegionRestriction__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoFileDetails" as VideoFileDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoFileDetailsAudioStream" as VideoFileDetailsAudioStream__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoFileDetailsVideoStream" as VideoFileDetailsVideoStream__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoGetRatingResponse" as VideoGetRatingResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoListResponse" as VideoListResponse__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoLiveStreamingDetails" as VideoLiveStreamingDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoLocalization" as VideoLocalization__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoMonetizationDetails" as VideoMonetizationDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoPaidProductPlacementDetails" as VideoPaidProductPlacementDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoPlayer" as VideoPlayer__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoProcessingDetails" as VideoProcessingDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoProcessingDetailsProcessingProgress" as VideoProcessingDetailsProcessingProgress__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoProjectDetails" as VideoProjectDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoRating" as VideoRating__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoRecordingDetails" as VideoRecordingDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoSnippet" as VideoSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoStat" as VideoStat__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoStatistics" as VideoStatistics__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoStatsContentDetails" as VideoStatsContentDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoStatsSnippet" as VideoStatsSnippet__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoStatsStatistics" as VideoStatsStatistics__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoStatus" as VideoStatus__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoSuggestions" as VideoSuggestions__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoSuggestionsTagSuggestion" as VideoSuggestionsTagSuggestion__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoTopicDetails" as VideoTopicDetails__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "VideoTrainability" as VideoTrainability__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Parts {
+     class "WatchSettings" as WatchSettings__class   extends \\YouTube\\Parts\\Part__class  {
+    }
+}
+namespace YouTube\\Quota {
+     class "Cost" as Cost__class    {
+    }
+}
+namespace YouTube\\Quota {
+     class "Meter" as Meter__class    {
+    }
+}
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.20.1+1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

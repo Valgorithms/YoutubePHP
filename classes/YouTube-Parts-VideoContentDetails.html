@@ -1,0 +1,2387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+            <title>YouTubePHP Documentation</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">YouTubePHP Documentation</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category -youtubephp-guides">
+            <h2 class="phpdocumentor-sidebar__category-header">Youtubephp-Guides</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="guides/civ13-uploader-example.html#civ13-a-verified-uploader-integration" class="">Civ13: a verified uploader integration</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="guides/github-actions-uploader.html#uploading-reviewed-videos-from-github-actions" class="">Uploading reviewed videos from GitHub Actions</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="guides/publishing.html#building-and-publishing-the-documentation" class="">Building and publishing the documentation</a>
+</h4>
+
+                        </section>
+                <section class="phpdocumentor-sidebar__category -namespaces">
+            <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/youtube.html" class="">YouTube</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/youtube-api.html" class="">Api</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/youtube-auth.html" class="">Auth</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/youtube-exceptions.html" class="">Exceptions</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/youtube-factory.html" class="">Factory</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/youtube-http.html" class="">Http</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/youtube-livechat.html" class="">LiveChat</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/youtube-parts.html" class="">Parts</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/youtube-quota.html" class="">Quota</a>
+                
+            </li>
+            </ul>
+
+                        </section>
+                <section class="phpdocumentor-sidebar__category -packages">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
+
+                        </section>
+            
+    <section class="phpdocumentor-sidebar__category -reports">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="graphs/classes.html">Class Diagram</a></h3>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category -indices">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/youtube.html">YouTube</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/youtube-parts.html">Parts</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    VideoContentDetails
+
+        <span class="phpdocumentor-element__extends">
+        extends <a href="classes/YouTube-Parts-Part.html"><abbr title="\YouTube\Parts\Part">Part</abbr></a>
+    </span>
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+                            </ul>
+        </div>
+    
+    
+    </h2>
+
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">48</span>
+
+    </aside>
+
+            <p class="phpdocumentor-summary">This file is generated from spec/discovery.json (YouTube Data API v3, revision 20260924) by
+tools/generate.php. Do not edit it by hand - run `composer spec:build` instead.</p>
+
+
+    <section class="phpdocumentor-description"><p>Details about the content of a YouTube Video.</p>
+</section>
+
+
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">since</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.0</span>
+                                                                                                        
+                                    </dd>
+                        </dl>
+
+    
+    
+<h3 id="toc">
+    Table of Contents
+    <a href="classes/YouTube-Parts-VideoContentDetails.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h3>
+
+
+
+
+
+
+
+<h4 id="toc-constants">
+    Constants
+    <a href="classes/YouTube-Parts-VideoContentDetails.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#constant_CAPTION_FALSE">CAPTION_FALSE</a>
+    <span>
+        &nbsp;: mixed&nbsp;= &#039;false&#039;                            </span>
+</dt>
+<dd>A `caption` of `false`.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#constant_CAPTION_TRUE">CAPTION_TRUE</a>
+    <span>
+        &nbsp;: mixed&nbsp;= &#039;true&#039;                            </span>
+</dt>
+<dd>A `caption` of `true`.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#constant_DEFINITION_HD">DEFINITION_HD</a>
+    <span>
+        &nbsp;: mixed&nbsp;= &#039;hd&#039;                            </span>
+</dt>
+<dd>hd</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#constant_DEFINITION_SD">DEFINITION_SD</a>
+    <span>
+        &nbsp;: mixed&nbsp;= &#039;sd&#039;                            </span>
+</dt>
+<dd>sd</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#constant_PROJECTION_360">PROJECTION_360</a>
+    <span>
+        &nbsp;: mixed&nbsp;= &#039;360&#039;                            </span>
+</dt>
+<dd>A `projection` of `360`.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#constant_PROJECTION_RECTANGULAR">PROJECTION_RECTANGULAR</a>
+    <span>
+        &nbsp;: mixed&nbsp;= &#039;rectangular&#039;                            </span>
+</dt>
+<dd>A `projection` of `rectangular`.</dd>
+
+    </dl>
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/YouTube-Parts-VideoContentDetails.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#property_caption">$caption</a>
+    <span>
+                        &nbsp;: string|null            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#property_contentRating">$contentRating</a>
+    <span>
+                        &nbsp;: <a href="classes/YouTube-Parts-ContentRating.html"><abbr title="\YouTube\Parts\ContentRating">ContentRating</abbr></a>|null            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#property_countryRestriction">$countryRestriction</a>
+    <span>
+                        &nbsp;: <a href="classes/YouTube-Parts-AccessPolicy.html"><abbr title="\YouTube\Parts\AccessPolicy">AccessPolicy</abbr></a>|null            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#property_definition">$definition</a>
+    <span>
+                        &nbsp;: string|null            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#property_dimension">$dimension</a>
+    <span>
+                        &nbsp;: string|null            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#property_duration">$duration</a>
+    <span>
+                        &nbsp;: string|null            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#property_hasCustomThumbnail">$hasCustomThumbnail</a>
+    <span>
+                        &nbsp;: bool|null            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#property_licensedContent">$licensedContent</a>
+    <span>
+                        &nbsp;: bool|null            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#property_projection">$projection</a>
+    <span>
+                        &nbsp;: string|null            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#property_regionRestriction">$regionRestriction</a>
+    <span>
+                        &nbsp;: <a href="classes/YouTube-Parts-VideoContentDetailsRegionRestriction.html"><abbr title="\YouTube\Parts\VideoContentDetailsRegionRestriction">VideoContentDetailsRegionRestriction</abbr></a>|null            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/YouTube-Parts-VideoContentDetails.html#property_casts">$casts</a>
+    <span>
+                        &nbsp;: array&lt;string, string&gt;            </span>
+</dt>
+<dd>Attribute name =&gt; type token (`&quot;LiveChatMessageSnippet&quot;`,
+`&quot;Array of Thumbnail&quot;`, `&quot;Map of VideoLocalization&quot;`), used to hydrate
+nested objects into parts.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/YouTube-Parts-Part.html#property_dates">$dates</a>
+    <span>
+                        &nbsp;: array&lt;int, string&gt;            </span>
+</dt>
+<dd>Attribute names holding RFC 3339 timestamps, read back as
+{@see CarbonImmutable}. They are stored and serialised as the strings
+YouTube sent.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/YouTube-Parts-Part.html#property_youtube">$youtube</a>
+    <span>
+                        &nbsp;: ?<a href="classes/YouTube-YouTube.html"><abbr title="\YouTube\YouTube">YouTube</abbr></a>            </span>
+</dt>
+
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/YouTube-Parts-VideoContentDetails.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method___construct">__construct()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method___debugInfo">__debugInfo()</a>
+    <span>
+                                &nbsp;: array&lt;string, mixed&gt;    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method___get">__get()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method___isset">__isset()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method___set">__set()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method___toString">__toString()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method___unset">__unset()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method_attributeExists">attributeExists()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method_fill">fill()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method_getAttribute">getAttribute()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method_getCasts">getCasts()</a>
+    <span>
+                                &nbsp;: array&lt;string, string&gt;    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method_getDates">getDates()</a>
+    <span>
+                                &nbsp;: array&lt;int, string&gt;    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method_getRawAttribute">getRawAttribute()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Reads straight from the attribute bag, skipping the `get{Key}Attribute` hook.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method_getRawAttributes">getRawAttributes()</a>
+    <span>
+                                &nbsp;: array&lt;string, mixed&gt;    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method_getYouTube">getYouTube()</a>
+    <span>
+                                &nbsp;: <a href="classes/YouTube-YouTube.html"><abbr title="\YouTube\YouTube">YouTube</abbr></a>    </span>
+</dt>
+<dd>The client this part came from.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method_jsonSerialize">jsonSerialize()</a>
+    <span>
+                                &nbsp;: array&lt;string, mixed&gt;    </span>
+</dt>
+<dd>The payload this part would be sent back to YouTube as: nested parts and
+collections flattened, timestamps as RFC 3339 strings.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method_offsetExists">offsetExists()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method_offsetGet">offsetGet()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method_offsetSet">offsetSet()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method_offsetUnset">offsetUnset()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/YouTube-Parts-Part.html#method_setAttribute">setAttribute()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/YouTube-Parts-Part.html#method_factory">factory()</a>
+    <span>
+                                &nbsp;: <a href="classes/YouTube-Factory-Factory.html"><abbr title="\YouTube\Factory\Factory">Factory</abbr></a>    </span>
+</dt>
+<dd>Builds another part from the same client - for nested objects.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/YouTube-Parts-Part.html#method_setRawAttribute">setRawAttribute()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Writes straight to the attribute bag, skipping the `set{Key}Attribute` hook
+and any cast. For use *inside* a mutator, which would otherwise have no way
+to store its shaped value without recursing through {@see setAttribute()}.</dd>
+
+    </dl>
+
+
+
+        
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="classes/YouTube-Parts-VideoContentDetails.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_CAPTION_FALSE">
+        CAPTION_FALSE
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#constant_CAPTION_FALSE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">54</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">A `caption` of `false`.</p>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">CAPTION_FALSE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;false&#039;</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_CAPTION_TRUE">
+        CAPTION_TRUE
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#constant_CAPTION_TRUE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">51</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">A `caption` of `true`.</p>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">CAPTION_TRUE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;true&#039;</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_DEFINITION_HD">
+        DEFINITION_HD
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#constant_DEFINITION_HD" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">60</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">hd</p>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">DEFINITION_HD</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;hd&#039;</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_DEFINITION_SD">
+        DEFINITION_SD
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#constant_DEFINITION_SD" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">57</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">sd</p>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">DEFINITION_SD</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;sd&#039;</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_PROJECTION_360">
+        PROJECTION_360
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#constant_PROJECTION_360" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">66</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">A `projection` of `360`.</p>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">PROJECTION_360</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;360&#039;</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_PROJECTION_RECTANGULAR">
+        PROJECTION_RECTANGULAR
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#constant_PROJECTION_RECTANGULAR" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">63</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">A `projection` of `rectangular`.</p>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">PROJECTION_RECTANGULAR</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;rectangular&#039;</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+            </section>
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/YouTube-Parts-VideoContentDetails.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_caption">
+        $caption
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#property_caption" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">0</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$caption</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p>The value of captions indicates whether the video has captions or not. One of
+the <code class="prettyprint">CAPTION_*</code> constants.</p>
+</section>
+
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_contentRating">
+        $contentRating
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#property_contentRating" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">0</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/YouTube-Parts-ContentRating.html"><abbr title="\YouTube\Parts\ContentRating">ContentRating</abbr></a>|null</span>
+    <span class="phpdocumentor-signature__name">$contentRating</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p>Specifies the ratings that the video received under
+various rating schemes.</p>
+</section>
+
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_countryRestriction">
+        $countryRestriction
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#property_countryRestriction" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">0</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/YouTube-Parts-AccessPolicy.html"><abbr title="\YouTube\Parts\AccessPolicy">AccessPolicy</abbr></a>|null</span>
+    <span class="phpdocumentor-signature__name">$countryRestriction</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p>The countryRestriction object contains
+information about the countries where a video is (or is not) viewable.</p>
+</section>
+
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_definition">
+        $definition
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#property_definition" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">0</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$definition</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p>The value of definition indicates whether the video is available in high
+definition or only in standard definition. One of the <code class="prettyprint">DEFINITION_*</code> constants.</p>
+</section>
+
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_dimension">
+        $dimension
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#property_dimension" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">0</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$dimension</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p>The value of dimension indicates whether the video is available in 3D or in
+2D.</p>
+</section>
+
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_duration">
+        $duration
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#property_duration" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">0</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$duration</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p>The length of the video. The tag value is an ISO 8601 duration in the format
+PT#M#S, in which the letters PT indicate that the value specifies a period of time, and the letters M and S
+refer to length in minutes and seconds, respectively. The # characters preceding the M and S letters are both
+integers that specify the number of minutes (or seconds) of the video. For example, a value of PT15M51S
+indicates that the video is 15 minutes and 51 seconds long.</p>
+</section>
+
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_hasCustomThumbnail">
+        $hasCustomThumbnail
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#property_hasCustomThumbnail" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">0</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">bool|null</span>
+    <span class="phpdocumentor-signature__name">$hasCustomThumbnail</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p>Indicates whether the video uploader has provided a custom thumbnail
+image for the video. This property is only visible to the video uploader.</p>
+</section>
+
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_licensedContent">
+        $licensedContent
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#property_licensedContent" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">0</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">bool|null</span>
+    <span class="phpdocumentor-signature__name">$licensedContent</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p>The value of is_license_content indicates whether the video is licensed
+content.</p>
+</section>
+
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_projection">
+        $projection
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#property_projection" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">0</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$projection</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p>Specifies the projection format of the video. One of the <code class="prettyprint">PROJECTION_*</code>
+constants.</p>
+</section>
+
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_regionRestriction">
+        $regionRestriction
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#property_regionRestriction" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">0</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/YouTube-Parts-VideoContentDetailsRegionRestriction.html"><abbr title="\YouTube\Parts\VideoContentDetailsRegionRestriction">VideoContentDetailsRegionRestriction</abbr></a>|null</span>
+    <span class="phpdocumentor-signature__name">$regionRestriction</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p>Deprecated. The
+regionRestriction object contains information about the countries where a video is (or is not) viewable. The
+object will contain either the contentDetails.regionRestriction.allowed property or the
+contentDetails.regionRestriction.blocked property.</p>
+</section>
+
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_casts">
+        $casts
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#property_casts" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/VideoContentDetails.php"><a href="files/src-youtube-parts-videocontentdetails.html"><abbr title="src/YouTube/Parts/VideoContentDetails.php">VideoContentDetails.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">69</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Attribute name =&gt; type token (`&quot;LiveChatMessageSnippet&quot;`,
+`&quot;Array of Thumbnail&quot;`, `&quot;Map of VideoLocalization&quot;`), used to hydrate
+nested objects into parts.</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">array&lt;string, string&gt;</span>
+    <span class="phpdocumentor-signature__name">$casts</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039;contentRating&#039; =&gt; &#039;ContentRating&#039;, &#039;countryRestriction&#039; =&gt; &#039;AccessPolicy&#039;, &#039;regionRestriction&#039; =&gt; &#039;VideoContentDetailsRegionRestriction&#039;]</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_dates">
+        $dates
+        <a href="classes/YouTube-Parts-Part.html#property_dates" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">53</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Attribute names holding RFC 3339 timestamps, read back as
+{@see CarbonImmutable}. They are stored and serialised as the strings
+YouTube sent.</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">array&lt;int, string&gt;</span>
+    <span class="phpdocumentor-signature__name">$dates</span>
+     = <span class="phpdocumentor-signature__default-value">[]</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_youtube">
+        $youtube
+        <a href="classes/YouTube-Parts-Part.html#property_youtube" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">63</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">?<a href="classes/YouTube-YouTube.html"><abbr title="\YouTube\YouTube">YouTube</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$youtube</span>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/YouTube-Parts-VideoContentDetails.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/YouTube-Parts-Part.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">62</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type"><a href="classes/YouTube-YouTube.html"><abbr title="\YouTube\YouTube">YouTube</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$youtube</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string, mixed&gt;|object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributes</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$youtube</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/YouTube-YouTube.html"><abbr title="\YouTube\YouTube">YouTube</abbr></a>|null</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The client, for behaviour that calls the API.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$attributes</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string, mixed&gt;|object</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">[]</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___debugInfo">
+        __debugInfo()
+        <a href="classes/YouTube-Parts-Part.html#method___debugInfo" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">251</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__debugInfo</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___get">
+        __get()
+        <a href="classes/YouTube-Parts-Part.html#method___get" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">172</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__get</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$name</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$name</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___isset">
+        __isset()
+        <a href="classes/YouTube-Parts-Part.html#method___isset" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">182</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__isset</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$name</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$name</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___set">
+        __set()
+        <a href="classes/YouTube-Parts-Part.html#method___set" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">177</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__set</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$name</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$name</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$value</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___toString">
+        __toString()
+        <a href="classes/YouTube-Parts-Part.html#method___toString" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">256</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__toString</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___unset">
+        __unset()
+        <a href="classes/YouTube-Parts-Part.html#method___unset" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">187</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__unset</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$name</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$name</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_attributeExists">
+        attributeExists()
+        <a href="classes/YouTube-Parts-Part.html#method_attributeExists" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">132</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">attributeExists</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$key</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_fill">
+        fill()
+        <a href="classes/YouTube-Parts-Part.html#method_fill" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">72</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">fill</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributes</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$attributes</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getAttribute">
+        getAttribute()
+        <a href="classes/YouTube-Parts-Part.html#method_getAttribute" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">95</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getAttribute</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$key</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getCasts">
+        getCasts()
+        <a href="classes/YouTube-Parts-Part.html#method_getCasts" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">145</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getCasts</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string, string&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string, string&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getDates">
+        getDates()
+        <a href="classes/YouTube-Parts-Part.html#method_getDates" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">151</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getDates</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, string&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;int, string&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getRawAttribute">
+        getRawAttribute()
+        <a href="classes/YouTube-Parts-Part.html#method_getRawAttribute" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">127</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Reads straight from the attribute bag, skipping the `get{Key}Attribute` hook.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getRawAttribute</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$key</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getRawAttributes">
+        getRawAttributes()
+        <a href="classes/YouTube-Parts-Part.html#method_getRawAttributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">139</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getRawAttributes</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getYouTube">
+        getYouTube()
+        <a href="classes/YouTube-Parts-Part.html#method_getYouTube" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">161</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">The client this part came from.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getYouTube</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/YouTube-YouTube.html"><abbr title="\YouTube\YouTube">YouTube</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="method_getYouTube_tags">
+        Tags
+        <a href="classes/YouTube-Parts-Part.html#method_getYouTube_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\LogicException">LogicException</abbr></span>
+                                                                                        <section class="phpdocumentor-description"><p>When the part was built without one.</p>
+</section>
+
+                                    </dd>
+                        </dl>
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/YouTube-YouTube.html"><abbr title="\YouTube\YouTube">YouTube</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_jsonSerialize">
+        jsonSerialize()
+        <a href="classes/YouTube-Parts-Part.html#method_jsonSerialize" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">218</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">The payload this part would be sent back to YouTube as: nested parts and
+collections flattened, timestamps as RFC 3339 strings.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">jsonSerialize</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_offsetExists">
+        offsetExists()
+        <a href="classes/YouTube-Parts-Part.html#method_offsetExists" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">192</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">offsetExists</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$offset</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$offset</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_offsetGet">
+        offsetGet()
+        <a href="classes/YouTube-Parts-Part.html#method_offsetGet" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">197</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">offsetGet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$offset</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$offset</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_offsetSet">
+        offsetSet()
+        <a href="classes/YouTube-Parts-Part.html#method_offsetSet" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">202</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">offsetSet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$offset</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$offset</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$value</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_offsetUnset">
+        offsetUnset()
+        <a href="classes/YouTube-Parts-Part.html#method_offsetUnset" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">207</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">offsetUnset</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$offset</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$offset</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setAttribute">
+        setAttribute()
+        <a href="classes/YouTube-Parts-Part.html#method_setAttribute" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">79</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setAttribute</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$key</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$value</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_factory">
+        factory()
+        <a href="classes/YouTube-Parts-Part.html#method_factory" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">167</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Builds another part from the same client - for nested objects.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">factory</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/YouTube-Factory-Factory.html"><abbr title="\YouTube\Factory\Factory">Factory</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/YouTube-Factory-Factory.html"><abbr title="\YouTube\Factory\Factory">Factory</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setRawAttribute">
+        setRawAttribute()
+        <a href="classes/YouTube-Parts-Part.html#method_setRawAttribute" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/YouTube/Parts/Part.php"><a href="files/src-youtube-parts-part.html"><abbr title="src/YouTube/Parts/Part.php">Part.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">121</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Writes straight to the attribute bag, skipping the `set{Key}Attribute` hook
+and any cast. For use *inside* a mutator, which would otherwise have no way
+to store its shaped value without recursing through {@see setAttribute()}.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">setRawAttribute</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$key</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$value</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+            </section>
+
+        
+    </article>
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                        <li><a href="classes/YouTube-Parts-VideoContentDetails.html#toc-constants">Constants</a></li>
+                                                            <li><a href="classes/YouTube-Parts-VideoContentDetails.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/YouTube-Parts-VideoContentDetails.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#constant_CAPTION_FALSE">CAPTION_FALSE</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#constant_CAPTION_TRUE">CAPTION_TRUE</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#constant_DEFINITION_HD">DEFINITION_HD</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#constant_DEFINITION_SD">DEFINITION_SD</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#constant_PROJECTION_360">PROJECTION_360</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#constant_PROJECTION_RECTANGULAR">PROJECTION_RECTANGULAR</a></li>
+                                            </ul>
+                </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#property_caption">$caption</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#property_contentRating">$contentRating</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#property_countryRestriction">$countryRestriction</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#property_definition">$definition</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#property_dimension">$dimension</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#property_duration">$duration</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#property_hasCustomThumbnail">$hasCustomThumbnail</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#property_licensedContent">$licensedContent</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#property_projection">$projection</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#property_regionRestriction">$regionRestriction</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-VideoContentDetails.html#property_casts">$casts</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-Part.html#property_dates">$dates</a></li>
+                                                    <li class=""><a href="classes/YouTube-Parts-Part.html#property_youtube">$youtube</a></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method___debugInfo">__debugInfo()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method___get">__get()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method___isset">__isset()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method___set">__set()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method___toString">__toString()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method___unset">__unset()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method_attributeExists">attributeExists()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method_fill">fill()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method_getAttribute">getAttribute()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method_getCasts">getCasts()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method_getDates">getDates()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method_getRawAttribute">getRawAttribute()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method_getRawAttributes">getRawAttributes()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method_getYouTube">getYouTube()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method_jsonSerialize">jsonSerialize()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method_offsetExists">offsetExists()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method_offsetGet">offsetGet()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method_offsetSet">offsetSet()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method_offsetUnset">offsetUnset()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method_setAttribute">setAttribute()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method_factory">factory()</a></li>
+                                            <li class=""><a href="classes/YouTube-Parts-Part.html#method_setRawAttribute">setRawAttribute()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+        </div>
+        <a href="classes/YouTube-Parts-VideoContentDetails.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
+</body>
+</html>
