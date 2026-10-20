@@ -31,10 +31,10 @@ jobs:
           extensions: iconv, mbstring
           coverage: none
           tools: composer:2.9.8
-      - name: Install Graphviz for the generated class diagram
+      - name: Install local PlantUML and Graphviz for the class diagram
         run: |
           sudo apt-get update -qq
-          sudo apt-get install --yes --no-install-recommends graphviz
+          sudo apt-get install --yes --no-install-recommends graphviz plantuml
       - name: Checkout pinned phpDocumentor toolchain
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
@@ -47,6 +47,9 @@ jobs:
           composer install --working-dir=phpdoc-tool --no-dev --no-interaction
           --no-scripts --prefer-dist --no-progress
       - name: Generate and validate public output
+        env:
+          PHPDOC_PLANTUML: plantuml
+          PHPDOC_PLANTUML_BIN: /usr/bin/plantuml
         run: |
           php tools/build-docs.php
           php tools/check-docs.php
