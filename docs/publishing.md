@@ -8,7 +8,9 @@ The existing DiscordPHP-family phpDocumentor toolchain is pinned in the workflow
 to `40e5911a592e5fc4407096cebd5fb4aaf2e9df6f`, with its own committed Composer lock
 and reviewed nullable-type patches. Its Composer patch plugin is intentional;
 the uploader consumer's no-plugin installation policy is a different project.
-Graphviz `dot` must be installed for the generated class diagram.
+Graphviz `dot` must be installed for the generated class diagram. The configuration
+also explicitly sets `graphs.enabled=true`; phpDocumentor disables graph rendering
+by default even though its default template emits a diagram-page link.
 
 For a local build, install that toolchain in `phpdoc-tool/` as its own project,
 or point `PHPDOC` at an existing trusted toolchain's `vendor/bin/phpdoc`. Then run:

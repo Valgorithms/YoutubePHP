@@ -79,7 +79,7 @@ $root = realpath(dirname(__DIR__) . '/build');
 if ($root === false) {
     throw new RuntimeException('Build output missing');
 }
-$required = ['index.html', 'classes/YouTube-YouTube.html', 'guides/index.html',
+$required = ['index.html', 'classes/YouTube-YouTube.html', 'graphs/classes.svg', 'guides/index.html',
     'guides/github-actions-uploader.html', 'guides/civ13-uploader-example.html'];
 foreach ($required as $path) {
     if (! is_file($root . '/' . $path)) {
@@ -101,14 +101,14 @@ foreach ($iterator as $file) {
     if ($bytes > 32 * 1024 * 1024) {
         throw new RuntimeException('Generated site exceeds 32 MiB cap');
     }
-    if ($file->getExtension() !== 'html') {
-        continue;
-    }
-    ++$html;
     $content = file_get_contents($file->getPathname());
     if (preg_match('~PHP Stack trace|PHP (?:Deprecated|Warning|Fatal error):|[A-Z]:[/\\\\]Users[/\\\\]|/home/runner/work/|\bya29\.[A-Za-z0-9_-]{20,}|\b1//[A-Za-z0-9_-]{30,}~', $content)) {
         throw new RuntimeException('Diagnostic, local path or token-shaped content in public HTML');
     }
+    if ($file->getExtension() !== 'html') {
+        continue;
+    }
+    ++$html;
     docsCheckLinks($root, $file->getPathname(), $content);
 }
 file_put_contents($root . '/.nojekyll', '');
