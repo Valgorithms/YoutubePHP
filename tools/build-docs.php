@@ -65,7 +65,14 @@ if ($binary === null) {
     exit(1);
 }
 
-$arguments = array_map('escapeshellarg', [PHP_BINARY, $binary, '--config', $root . '/phpdoc.dist.xml', '--no-interaction']);
+// Template output buffers must not include local diagnostic paths/stack traces.
+// The pinned league/uri tool emits PHP 8.5 deprecations; other errors stay visible.
+$arguments = array_map('escapeshellarg', [
+    PHP_BINARY,
+    '-d', 'display_errors=stderr',
+    '-d', 'error_reporting=' . (E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED),
+    $binary, '--config', $root . '/phpdoc.dist.xml', '--no-interaction',
+]);
 
 fwrite(STDERR, "Building the reference...\n");
 passthru(implode(' ', $arguments), $status);
