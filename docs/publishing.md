@@ -52,6 +52,12 @@ API reference, uploader guide and case study. Source generation alone is not a
 live deployment. The default address is
 `https://valgorithms.github.io/YoutubePHP/`.
 
+The publisher checks seven live pages/resources with anonymous HTTPS requests,
+requires HTTP 200 and compares each response byte-for-byte with the deployed
+artifact. Requests have bounded timeouts/retries and no authentication or cookies.
+This also provides readback when an operator's local network cannot reach the
+Pages hostname. A successful upload to Pages alone does not pass that check.
+
 References: [phpDocumentor configuration](https://docs.phpdoc.org/guide/references/configuration.html),
 [custom Pages workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages),
 [Pages publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
