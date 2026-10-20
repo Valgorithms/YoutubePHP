@@ -36,9 +36,16 @@ $youtube = new YouTube([
 
 ## Signing in
 
+For a reviewed, manual GitHub Actions uploader, follow
+[Uploading videos from GitHub Actions](docs/github-actions-uploader.md).
+It covers Desktop OAuth with the narrow upload/readback scopes, protected
+environment secrets, reusable workflows, durable receipts and uncertain outcomes.
+The [Civ13 case study](docs/civ13-uploader-example.md) records the working integration.
+The device-flow example below is for long-running bots; it is not the uploader setup.
+
 A bot signs in once, as the account whose channel it works for, with Google's device flow: it
 shows a code, and someone enters it at `google.com/device`. Google then issues a refresh token,
-which does not expire and is not rotated, so the bot mints its hour-long access tokens from it
+which can expire or be revoked, so the bot mints its hour-long access tokens from it
 from then on.
 
 What you need from the [Google Cloud console](https://console.cloud.google.com):
