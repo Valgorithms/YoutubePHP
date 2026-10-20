@@ -188,6 +188,9 @@ php -S 127.0.0.1:8000 -t build
 .</p>
 
             
+    <p>The publisher checks seven live pages/resources with anonymous HTTPS requests, requires HTTP 200 and compares each response byte-for-byte with the deployed artifact. Requests have bounded timeouts/retries and no authentication or cookies. This also provides readback when an operator&#039;s local network cannot reach the Pages hostname. A successful upload to Pages alone does not pass that check.</p>
+
+            
     <p>References: <a href="https://docs.phpdoc.org/guide/references/configuration.html">phpDocumentor configuration</a>, <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages">custom Pages workflows</a>, <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site">Pages publishing source</a>.</p>
 
     </section>
