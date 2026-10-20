@@ -13,6 +13,9 @@ reachable from PHP.
 
 ## Requirements
 
+[Documentation and guides](https://valgorithms.github.io/YoutubePHP/) ·
+[GitHub Actions uploader setup](https://valgorithms.github.io/YoutubePHP/guides/github-actions-uploader.html)
+
 - PHP 8.4 or newer
 - ext-json, ext-mbstring
 

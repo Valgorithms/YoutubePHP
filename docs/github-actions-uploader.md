@@ -7,7 +7,7 @@ schedule. A PR producing a video must never receive the channel credentials.
 YouTubePHP supplies the API client, OAuth refresh and multipart media calls. It
 does **not** supply Google consent, GitHub environment configuration, artifact
 provenance, human content approval or a durable upload journal. Those are the
-repository integration's responsibility. The [small PHP example](../examples/ReviewedUpload.php)
+repository integration's responsibility. The [small PHP example](https://github.com/Valgorithms/YoutubePHP/blob/main/examples/ReviewedUpload.php)
 is tested with a fake transport; it deliberately has no executable CLI or default
 journal. The [Civ13 example](civ13-uploader-example.md) links a complete, separately
 tested integration, including its controller and setup helper. **Copying the two
